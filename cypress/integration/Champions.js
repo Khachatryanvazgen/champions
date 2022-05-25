@@ -19,6 +19,6 @@ it("wwe test", function(){
     cy.get('.w-100 > .h5').click()
     cy.get('.icon-arrow').click()
     cy.get('.account-profile__account-settings__button > svg').click()
-    cy.get('[data-id="account_settings_Logout"] > .body-12').click()
+    cy.get('[data-id="account_settings_Logout"]').click()
     
 })
